@@ -1,0 +1,13 @@
+# Lower CPU/RAM on small laptops
+[server]
+fileWatcherType = "none"   # no background file-polling threads (restart the app after editing code)
+runOnSave = false
+
+[runner]
+magicEnabled = false       # skip the bare-expression rewrite pass on every rerun
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
